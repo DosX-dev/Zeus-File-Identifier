@@ -1,0 +1,147 @@
+# Zeus File Identifier file format version 1.X
+#
+# Standart "zeus.db" database
+# Author is DosX
+#
+# Format:
+#  {STRING_NAME}|{STRING_FILE_TYPE}|{STRING_DESCRIPTION}|{MASK_SIGNATURE}
+#
+# Hint for signatures writing:
+#  * Use ".."/"??" to indicate an unknown byte (like "0000..29..11...00")
+#  * Use the ' character to wrap an ASCII string (like "000000'String in the file!'000029")
+#
+# The signature is read only from the beginning of the file.
+
+7z|Archive||'7z'
+ARCV 2|Archive||'ARCV'0002
+Adobe Font Metrics|Font|Contains the font and its parameters|'StartFontMetrics '
+Adobe Photoshop|Project|'8BPS'
+ArcFS|Archive||'Archive'00................2800000064
+Asar (Electron)|Archive|Electron Application package (NodeJS)|04..............................'{"files":{'
+Asymetrix|Archive||602213636c00
+BAGF|Archive||'BAGF'02
+BFF|Archive||09006bea
+BIGF|Archive||'BIGF'00
+BMF|Font|Contains the font and its parameters|'BMF'
+Basis Universal GPU Texture|Image||734213004D00
+BeOS package|Archive||'AlB'1a
+BulkZip|Archive||'blkzip'00
+CRAMFS|Archive||453dcd28........................'Compressed ROMFS'
+CRX|Archive||'Cr24'02
+DCL|Archive||00069a68
+Device Independent Document|Document||f702018392c01c3b
+DirectDraw Surface|Image||'DDS '7C000000
+Embedded OpenType Font|Font|Contains the font and its parameters|......00..........000200
+Encapsulated PostScript|Image||'%!PS-Adobe-'
+FTCOMP|Archive||a596fdff
+Facebook Zstandard/ZSTD compressed data|Archive||28B52FFD
+GIF|Image|Animated image|'GIF8'
+GNU Gettext Machine Object|Binary||950412de00000000
+GNU Gettext Machine Object|Binary||de12049500000000
+GXL|Archive||01ca'Copyright (c) Genus Microprogramming, Inc.'
+GZIP|Archive||1F8B
+HUFF|Archive||bd01..00..00..000000
+INSA|Archive||0100......00ecf9
+InstallShield INST v3|Archive||2aab79d800010000
+InstallShield INX v7|Archive||74c42c84e1e5d428
+InstallShield ISN|Archive||..0fd28ccc1f..3c0d8e830dd88f25ac
+InstallShield v3|Archive||135d658c3a010200
+IzPack|Archive||aced00057704
+JNG|Image|Contains raster graphics|8B'JNG'
+JPEG (EXIF)|Image|Contains raster graphics|FFD8FFE1....'Exif'00
+JPEG (OLD)|Image|Contains raster graphics|FFD8FFDB
+JPEG|Image|Contains raster graphics|FFD8FFE0....'JFIF'00
+KWAJ by Microsoft|Archive||'KWAJ'88
+Khronos Texture (KTX1)|Image||'«KTX 11»'0D0A1A0A
+Khronos Texture (KTX2)|Image||'«KTX 20»'0D0A1A0A
+LHA|Archive||....'-lh'..2d
+LZFSE|Archive||'bvxn'
+LZK00|Archive||'LZK00'000000
+LZMA|Archive||5d0000....ffffffffffffffff00180ddd04
+LZOP Compressed data|Archive||89'LZO'000D0A1A0A
+Long Range ZIP|Archive||'LRZI'
+Lua Bytecode|Script|Lua machine code|1B'Lua'..00
+MDCD|Archive||'MDmd'
+MP3|Audio|Music or sounds|'ID3'??00
+MP4|Video|The most common way to record video|000000..'ftyp'
+MPQ by Blizzard|Archive||'MPQ'1a
+MSKN 2 (zlib)|Archive||'_MCT'00'KSLZ'789c
+MVA|Archive||'mflh'0100
+MZIP|Archive||'MZIP'
+Microsoft Access Workgroup Information|Binary||00010000'Jet System DB  '00
+Microsoft Compound|Archive||D0CF11E0A1B11AE1
+Microsoft Program Information|Binary||'MICROSOFT PIFEX'0087010000
+Microsoft Word 2 document|Document|Old Microsoft Word format|dca5..00..................00000000
+Microsoft Word 2 document|Document|Old Microsoft Word format|eca5c100..................00000000
+Microsoft XNA Game Studio Binary Package|Binary||'XNB'
+Microsoft compiled HTML|Binary||'ITSF'..000000
+NanoZip v0.09|Archive||AE01'NanoZip 0.09 alpha'
+OpenType - CFF compact Font|Font|Contains the font and its parameters|'OTTO'................'CFF '
+PAC by BVRP Software|Archive||'PAC - 'a9' BVRP Software 1990-2000'
+PACK|Archive||'PACK'............0000
+PCInstall|Archive||00000000000000000000000000007400010074000500
+PDF|Document||'%PDF'
+PP20|Archive||'PP20'09
+Package Data|Archive||0500000001000000??????????00????
+PaperPort|Archive||'ViG'....1a
+Program Debug Database|Database|Contains program debugging information|'BSJB'01
+Program Debug Database|Database|Contains program debugging information|'Microsoft C/C++ MSF 7.00'0d
+PNG|Image|Raster graphics with transparency|89'PNG'
+Qt message|Binary|File containing text information of the Qt framework|3cb86418caef9c95
+Quick Help|Binary||'LN'0200
+RAR|Archive|Commercial WinRAR format|'Rar!'1a
+RAZOR Archive|Archive||'CM'2805060000
+RPM package|Archive||edabeedb0300
+Rich Text|Document|Formatted rich text data (.rtf)|'{\rtf1\'
+Rockstar Advanced Game resources|Archive|Used in the GTA series of games|'7FPR'????00
+SCO|Archive||1fa0
+SIT|Archive||'SIT!'
+SKF|Archive||06'SKF3.0'
+SQZE|Archive||'SQZE'010000
+SW|Archive||'im001V'......50....0000
+SZ by Microsoft|Archive||'SZ '88
+SZDD by Microsoft|Archive||'SZDD'88
+SaveDskF|Archive||aa59f0000002
+Snappy compressed data|Archive||FF060000'sNaPpY'
+Solaris Package|Archive||'# PaCkAgE DaTaStReAm'
+SquashFS (Big Endian)|Archive||'sqsh'0000
+SquashFS (Little Endian)|Archive||'hsqs'0300
+SQLite|Database||'SQLite format 3'00
+Security Catalog Files|Archive||3082....06092A864886F70D010702A0
+TAR|Archive|Archive without encryption or compression|................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................00'ustar'
+TPWM (BlueByte)|Archive||'TPWM'
+TsiLang binary translation data|Binary||'SIB file: TsiLang binary translation data'
+Universal Binary|Image||CAFEBABE
+UnrealEngine|Binary|Game engine format|C1832A9E
+VMS SaveSet|Archive||0001000401000100010000000000000000000000000000000000000000000000010101
+WAV|Audio||'RIFF'
+WPK|Archive||032401010100
+Windows Animated Cursor|Image||'RIFF'........'ACON'
+Windows Bitmap|Image|.bmp picture|'BM'
+Windows Cursor|Image|.cur cursor|00000200
+Windows Icon|Image|.ico icon|00000100
+Windows Imaging|Archive||'MSWIM'000000
+Windows Minidump|Binary|.dmp (process dump)|'MDMP'93a7
+Windows PE|Executable|Can be run on Windows OS|'MZ'
+Windows Shortcut|Binary||4c0000000114020000000000c000000000000046
+Windows Write document|Document|Microsoft Write format|31be000000ab0000
+Windows Write document|Document|Microsoft Write format|32be000000ab0000
+XAR|Archive||'xar!'001c00010000
+XFL game resources|Archive||'LB'0100
+XZ|Archive||fd'7zXZ'0000
+ZIP|Archive|Regular ZIP format|'PK'03
+ZOO|Archive||'ZOO'............'Archive'
+ZPAQ Compressed data|Archive||'7kSt'
+Zinc data|Binary||'Zinc Data File Version'
+Zipped ISO disk Image|Archive||'IsZ!@'01
+Z|Archive||1f9d
+WebM|Video|Is a royalty-free video format that supports VP8, VP9, and AV1 codecs|1A45DFA3........................................'webmB'87
+WebM|Video|Is a royalty-free video format that supports VP8, VP9, and AV1 codecs|1A45DFA3......................................................'webmB'87
+Resources|Archive|.NET resources format|CECAEFBE01000000910000006C'System.Resources.'
+Boot Image|Archive||'DCS'01
+Custom Application Compatibility Database|Database||0300000000000000'sdbf'
+Encrypted WSH (VBE/JSE)|Script|Encrypted VBScript/JScript|'#@~^'
+
+
+# Unknown result
+Looks like a custom file format|Unknown|??
